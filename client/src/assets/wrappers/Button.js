@@ -20,7 +20,7 @@ const Wrapper = styled.button`
   color: ${({ variant }) => variant === "find-more" && "white"};
   @media (max-width: 992px) {
     &{
-      width: 100%;
+      width: 90%;
     }
   }
 `;
