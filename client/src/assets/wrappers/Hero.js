@@ -31,7 +31,7 @@ const Wrapper = styled.section`
     display: flex;
     gap: 1.6rem;
   }
-  @media (max-width: 992px) {
+  @media (max-width: 600px) {
     & {
       background-image: none;
       height: fit-content;
@@ -50,6 +50,32 @@ const Wrapper = styled.section`
     div {
       flex-direction: column;
       gap: 0;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 992px) {
+    & {
+      background-image: none;
+      height: fit-content;
+      padding: 4rem 1rem;
+    }
+    h1 {
+      font-size: 3rem;
+      width: 100%;
+      text-align: center;
+      font-weight: 600;
+    }
+    p {
+      font-size: 2%.4;
+      text-align: center;
+    }
+    div {
+      flex-direction: row;
+      gap: 2rem;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+    h1 {
+      font-size: 2rem;
     }
   }
 `;

@@ -6,6 +6,7 @@ const Wrapper = styled.button`
   padding: 0.8rem 2rem;
   font-weight: 600;
   margin-top: 1.2rem;
+  /* text-align: center; */
   cursor: pointer;
   border: none;
   transition: 0.2s ease;
@@ -18,9 +19,14 @@ const Wrapper = styled.button`
     variant === "find-more" ? "transparent" : "white"};
   border: ${({ variant }) => variant === "find-more" && "1px solid white"};
   color: ${({ variant }) => variant === "find-more" && "white"};
-  @media (max-width: 992px) {
+  @media (max-width: 600px) {
     &{
       width: 90%;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 992px) {
+    &{
+      /* min-width: 90%; */
     }
   }
 `;

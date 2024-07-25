@@ -43,21 +43,23 @@ const Wrapper = styled.div`
       line-height: 1.6;
     }
   }
-  .swiper-backface-hidden .swiper-slide{
+  .swiper-backface-hidden .swiper-slide {
     display: flex;
     justify-content: center;
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 700px) {
+    margin-top: 4rem;
+    margin-bottom: 0;
     grid-template-columns: 1fr;
     height: 55rem;
     grid-row-gap: 2rem;
   }
-  @media (min-width: 992px) and (max-width: 1024px) {
-  /* Your CSS rules here */
-  grid-template-columns: 1fr;
-  height: 55rem;
-  grid-row-gap: 2rem;
-}
+  @media (min-width: 700px) and (max-width: 900px) {
+    /* Your CSS rules here */
+    grid-template-columns: 1fr 1fr;
+    height: 55rem;
+    grid-row-gap: 2rem;
+  }
 `;
 export default Wrapper;
