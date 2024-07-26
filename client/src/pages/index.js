@@ -1,1 +1,6 @@
 export {default as Home} from "./Home"
+export {default as Accessories} from "./Accessories"
+export {default as Men} from "./Men"
+export {default as Womens} from "./Womens"
+export {default as About} from "./About"
+export {default as ContactUs} from "./ContactUs"

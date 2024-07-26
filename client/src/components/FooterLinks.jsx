@@ -1,6 +1,6 @@
-import Wrapper from "../../assets/wrappers/FooterLinks";
-import logo from "../../assets/images/black-logo.png";
-import Button from "../Button";
+import Wrapper from "../assets/wrappers/FooterLinks";
+import logo from "../assets/images/black-logo.png";
+import Button from "../components/Button";
 const FooterLinks = () => {
   return (
     <Wrapper>
@@ -33,7 +33,7 @@ const FooterLinks = () => {
         <div>
           <h5>subscribe</h5>
           <input type="email" placeholder="Your Email Address..." />
-          <Button variant="subscribe" />
+          <Button variant="subscribe" label="Subscripe"/>
         </div>
       </div>
     </Wrapper>

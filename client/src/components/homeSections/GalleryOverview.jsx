@@ -7,21 +7,21 @@ const GalleryOverview = () => {
         <div className="info">
           <h2>20% off on tank tops</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <Button />
+          <Button label="shop now"/>
         </div>
       </div>
       <div className="two">
         <div className="info">
           <h2>latest eyeware for you</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <Button />
+          <Button label="shop now"/>
         </div>
       </div>
       <div className="three">
         <div className="info">
           <h2>let's lorem suit up!</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <Button />
+          <Button label="check out"/>
         </div>
       </div>
     </Wrapper>

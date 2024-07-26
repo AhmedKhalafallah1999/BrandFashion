@@ -1,4 +1,4 @@
-import Wrapper from "../../assets/wrappers/Footer";
+import Wrapper from "../assets/wrappers/Footer";
 
 const Footer = () => {
   return (

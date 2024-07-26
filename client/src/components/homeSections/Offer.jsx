@@ -18,7 +18,7 @@ const Offer = () => {
         <p className="text-offer">
           buy this t-shirt at 20% discount, use code <span>off20</span>
         </p>
-        <Button />
+        <Button label="shop now"/>
       </div>
     </Wrapper>
   );

@@ -20,12 +20,12 @@ const Wrapper = styled.button`
   border: ${({ variant }) => variant === "find-more" && "1px solid white"};
   color: ${({ variant }) => variant === "find-more" && "white"};
   @media (max-width: 600px) {
-    &{
+    & {
       width: 90%;
     }
   }
   @media (min-width: 600px) and (max-width: 992px) {
-    &{
+    & {
       /* min-width: 90%; */
     }
   }

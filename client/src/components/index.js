@@ -1,10 +1,10 @@
-export { default as Header } from "../components/homeSections/Header";
+export { default as Header } from "./Header";
 export { default as Hero } from "../components/homeSections/Hero";
 export { default as Overview } from "../components/homeSections/Overview";
 export { default as Products } from "../components/homeSections/Products";
 export { default as Offer } from "../components/homeSections/Offer";
 export { default as Advantages } from "../components/homeSections/Advantages";
-export { default as FooterLinks } from "../components/homeSections/FooterLinks";
-export { default as Footer } from "../components/homeSections/Footer";
+export { default as FooterLinks } from "../components/FooterLinks";
+export { default as Footer } from "../components/Footer";
 export { default as Button } from "./Button";
 export { default as SliderLogo } from "./homeSections/SliderLogo";
